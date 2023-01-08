@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name           TETR.IO 直播模式
+@namespace      TETR.IO Streamer Mode
+@version        1.0.0+20230108
+@description    可用于 TETR.IO 比赛的直播模式
+@author         MianSoft
+==/UserStyle== */
+
     h1#performancemeter_header,                                     /* F8标题，根据需要来开关 */
     div#devbuildid,                                                 /* F8精简，根据需要来开关 */
     div#me.ns,                                                      /* 右上角个人信息，根据需要来开关 */

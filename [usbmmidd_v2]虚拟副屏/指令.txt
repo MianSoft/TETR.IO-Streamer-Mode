@@ -1,0 +1,7 @@
+CMD或者Powershell(需要以管理员打开)
+安装驱动
+.\deviceinstaller64 install usbmmidd.inf usbmmidd
+增加虚拟副屏
+.\deviceinstaller64 enableidd 1
+移除虚拟副屏
+.\deviceinstaller64 enableidd 0
