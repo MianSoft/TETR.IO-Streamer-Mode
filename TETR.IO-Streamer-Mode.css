@@ -1,9 +1,11 @@
+    h1#performancemeter_header,                                     /* F8标题，根据需要来开关 */
+    div#devbuildid,                                                 /* F8精简，根据需要来开关 */
     div#me.ns,                                                      /* 右上角个人信息，根据需要来开关 */
     div#social_tray.ns,                                             /* 右上角好友按钮，根据需要来开关 */
     div#roomid_container.ns,                                        /* 顶部房间ID，根据需要来开关 */
     div#spectate.watch_header.ns,                                   /* 顶部观战栏，根据需要来开关 */
-    div#room_chat_container,                                        /* 房间页聊天框，根据需要来开关 */
-    div#ingame_chat_container,                                      /* 观战左侧聊天框，根据需要来开关 */
+/*    div#room_chat_container,                                         房间页聊天框，根据需要来开关 */
+/*    div#ingame_chat_container,                                       观战左侧聊天框，根据需要来开关 */
     div#sys_guide.scroller_block.light,                             /* 根据需要来开关 */
     div.room_tabs.flex-row.ns,                                      /* 根据需要来开关 */
     div#room_content_welcome.scroller.room_content.tab_content,     /* 根据需要来开关 */
