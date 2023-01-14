@@ -4,7 +4,7 @@
 
 
 
-此文档修改自https://www.amyuni.com/forum/viewtopic.php?t=3030
+此文档参考自:https://www.amyuni.com/forum/viewtopic.php?t=3030
 
 配图来源:[MianSoft](https://github.com/MianSoft)
 
@@ -12,7 +12,7 @@
 
 ### 1.下载所需驱动
 
-在浏览器打开https://www.amyuni.com/downloads/usbmmidd_v2.zip
+在浏览器打开:https://www.amyuni.com/downloads/usbmmidd_v2.zip
 
 下载后解压缩到你想要的位置
 
