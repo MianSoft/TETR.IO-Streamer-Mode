@@ -4,9 +4,9 @@
 
 
 
-此文档修改自https://www.amyuni.com/forum/viewtopic.php?t=3030配图来源:[MianSoft](https://github.com/MianSoft)
+此文档修改自https://www.amyuni.com/forum/viewtopic.php?t=3030
 
-[TOC]
+配图来源:[MianSoft](https://github.com/MianSoft)
 
 ## 安装部分
 
