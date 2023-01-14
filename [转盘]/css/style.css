@@ -1,0 +1,35 @@
+body {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0px auto;
+    overflow: hidden;
+    }
+div#my-lucky {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+
+.button {
+    box-shadow: 0px 0px 21px 0px #FFFFFF, 
+    1px 1px 16px 0px rgba(0, 0, 0, 0.44);
+    background-color: #fafafa;
+    border: solid #EEEEEE;
+    border-radius: 100px;
+    border-width: 0.35em;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 28px;
+    font-family: 'sans-serif';
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+    z-index:0
+}
+::-webkit-scrollbar {
+    display: none;
+} 

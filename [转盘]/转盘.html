@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>转盘</title>
+</head>
+
+<link rel="stylesheet" href="css/style.css">
+<div id="my-lucky">
+<input type="button" class="button" value=" R " onclick="replaceDoc()">
+</div>
+<script> function replaceDoc(){window.location.replace("./转盘.html")} </script>
+<script src="https://unpkg.com/lucky-canvas@1.7.25"></script>
+<script>
+  const myLucky = new LuckyCanvas.LuckyWheel('#my-lucky', {
+    width: '740',
+    height: '740',
+    blocks: [
+      {
+        padding: '8px',
+      },
+      {
+        padding: '10px',
+        imgs: [{
+          top: '-21%',
+          src: './img/bg1.png',
+          width: '142%',
+          height: '142%'
+        }]
+      },
+      {
+        padding: '10px',
+        background: '#EEEEEE' 
+      },
+    ],
+    prizes: [
+      {range:'1', background: '#ffffff', fonts: [{top: '17%' , text: '#1' }] },
+      {range:'0', background: '#fafafa', fonts: [{top: '17%' , text: '#2' }] },
+      {range:'0', background: '#ffffff', fonts: [{top: '17%' , text: '#3' }] },
+      {range:'0', background: '#fafafa', fonts: [{top: '17%' , text: '#4' }] },
+      {range:'0', background: '#ffffff', fonts: [{top: '17%' , text: '#5' }] },
+      {range:'0', background: '#fafafa', fonts: [{top: '17%' , text: '#6' }] },
+      {range:'0', background: '#ffffff', fonts: [{top: '17%' , text: '#7' }] },
+      {range:'0', background: '#fafafa', fonts: [{top: '17%' , text: '#8' }] },
+    ],
+    defaultConfig: {
+      gutter: '1px',
+      stopRange: '0.9',
+      speed: '2.5',
+      accelerationTime: '2500',
+      decelerationTime: '2500'
+    },
+    defaultStyle: {
+      fontStyle: 'sans-serif',
+      fontSize:'34px'
+    },
+    buttons: [{
+      radius: '18%',
+      background: '#EEEEEE',
+      pointer: true,
+      fonts: [{ text: 'Go', top: '-38%' ,fontSize:'35px' }]
+    }],
+    start: function () {
+      myLucky.play()
+      setTimeout(() => {
+      myLucky.stop()
+      }, 2500)
+    }
+  
+  });
+</script>
