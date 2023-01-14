@@ -5,7 +5,7 @@
 
 一个使用了[lucky-canvas](https://github.com/buuing/lucky-canvas)写的转盘网页
 
-用于联赛
+用于联赛的抽签
 
 参考了非常多的html教程
 
