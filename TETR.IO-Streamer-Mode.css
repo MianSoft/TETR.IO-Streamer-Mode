@@ -21,7 +21,7 @@
     div#room_content_match.scroller.room_content.tab_content,       /* 根据需要来开关 */
     div#room_content_game.scroller.room_content.tab_content,        /* 根据需要来开关 */
     div#room_opts_save.ns,                                          /* 根据需要来开关 */
-    div#sp_5f9e54b893c350df94c47a06.scroller_player_container       /* 隐藏自己，请自行修改成你自己的sp_(text) */
+    div[id^=sp_].scroller_player_container                          /* 隐藏自己，根据需要来开关 */
     {
         display: none!important
     }
