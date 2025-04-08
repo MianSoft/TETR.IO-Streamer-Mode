@@ -7,27 +7,27 @@
 ==/UserStyle== */
 /* F8精简 */
     h1#performancemeter_header,
-    div#devbuildid
-/* 右上角个人信息和好友
+    div#devbuildid,
+/* 右上角个人信息和好友 */
     div#me.ns,
-    div#social_tray.ns, */
-/* 顶部房间ID
-    div#roomid_container.ns, */
-/* 顶部观战栏
-    div#spectate.watch_header.ns, */
-/* 聊天栏
+    div#social_tray.ns,
+/* 顶部房间ID */
+    div#roomid_container.ns,
+/* 顶部/观战/回放栏 */
+    .watch_header.ns,
+/* 聊天栏 */
     div#room_chat_container,
-    div#ingame_chat_container, */
-/* 房间首页的那些玩意
+    div#ingame_chat_container,
+/* 房间首页的那些玩意 */
     div#sys_guide.scroller_block.light,
     div.room_tabs.flex-row.ns,
     div#room_content_welcome.scroller.room_content.tab_content,
     div#room_content_room.scroller.room_content.tab_content,
     div#room_content_match.scroller.room_content.tab_content,
     div#room_content_game.scroller.room_content.tab_content,
-    div#room_opts_save.ns, */
-/* 房间页左侧列表玩家，默认为全玩家匹配，可以换成sp_<id>来只隐藏你想隐藏的玩家(比如自己)
-    div[id^=sp_].scroller_player_container */
+    div#room_opts_save.ns,
+/* 房间页左侧列表玩家，默认为全玩家匹配，可以换成sp_<_id>来只隐藏你想隐藏的玩家(比如自己) */
+    div[id^=sp_].scroller_player_container
     {
         display: none!important
     }
